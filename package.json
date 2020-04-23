@@ -1,0 +1,15 @@
+{
+  "name": "shortener",
+  "baseUrl": "https://l.dplyr.dev",
+  "private": true,
+  "scripts": {
+    "shorten": "netlify-shortener"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "netlify-shortener": "^1.0.1"
+  },
+  "bin": {
+    "shorten": "cli.js"
+  }
+}
